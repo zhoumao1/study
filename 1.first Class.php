@@ -11,5 +11,5 @@ class cart
 }
 $cart = new cart();
 $cart ->baomao();
-$cart ->n;
+echo $cart ->name;
 ?>
