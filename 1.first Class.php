@@ -1,7 +1,7 @@
 <?php
 // 第三次
 $name = '欣欣'; // 在外边是变量
-class cart
+class Cart
 {
 	public $name = '欣欣';
 
@@ -9,7 +9,7 @@ class cart
 		echo 'sou~~';
 	}
 }
-$cart = new cart();
+$cart = new Cart();
 $cart ->baomao();
 echo $cart ->name;
 ?>
